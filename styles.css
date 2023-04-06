@@ -1,5 +1,6 @@
 .arena {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -15,11 +16,19 @@
     margin: 0 10px;
   }
   
-  .player-card {
-    order: 2;
+  .player-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
   }
   
-  .enemy-card {
-    order: 1;
+  .enemy-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  
+  
   
